@@ -5,11 +5,11 @@ from twilio.rest import Client
 import time
 
 # Configure Twilio
-account_sid = 'SEU_ACCOUNT_SID'  # Substitua pelo seu SID da conta Twilio
-auth_token = 'SEU_AUTH_TOKEN'  # Substitua pelo seu Auth Token
+account_sid = 'ACe4aa10e579228a40d139000d223462e1'  # Substitua pelo seu SID da conta Twilio
+auth_token = '2d300808550e7dd450eecdb11de72387'  # Substitua pelo seu Auth Token
 twilio_client = Client(account_sid, auth_token)
-from_phone = '+SEU_NUMERO_TWILIO'  # Número de telefone Twilio
-to_phone = '+SEU_NUMERO_CELULAR'  # Seu número de telefone
+from_phone = '+19787189500'  # Número de telefone Twilio
+to_phone = '+5581981797167'  # Seu número de telefone
 
 # Inicialize o vídeo e o detector de poses
 video = cv2.VideoCapture('vd03.mp4')
