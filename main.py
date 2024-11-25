@@ -34,7 +34,7 @@ while True:
         diferenca = joelho - cabeca
 
         if diferenca <= 0 and not queda_detectada:
-            cvzone.putTextRect(img, 'QUEDA DETECTADA', (x, y - 80), scale=3, thickness=3, colorR=(0, 0, 255))
+            cvzone.putTextRect(img, 'QUEDA DETECTADA!', (x, y - 80), scale=3, thickness=3, colorR=(0, 0, 255))
             queda_detectada = True
             tempo_exibicao = time.time() + 5  # Exibir mensagem por 5 segundos
 
